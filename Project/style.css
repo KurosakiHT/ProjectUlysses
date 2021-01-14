@@ -22,7 +22,6 @@ input[type=search]:focus {
   width: 150px;
   background-color: #fff;
   border-color: #66CC75;
-  
   -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
   -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
   box-shadow: 0 0 5px rgba(109,207,246,.5);
@@ -37,5 +36,16 @@ hr.light{
 	width: 75%;
 }
 .logo_size{
-  width: 85px;
+  width: 50px;
+  text-decoration: none;
+  display: inherit;
 }
+.nav-color{
+  background-color: ivory;
+}
+.black{
+  color: black;
+}
+
+
+
