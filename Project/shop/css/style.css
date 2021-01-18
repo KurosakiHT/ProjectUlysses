@@ -104,3 +104,30 @@
 .hover-change-size:hover{
   font-size: 38px;
 }
+.black{
+  color: black;
+  
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.0) url(img/search-icon.png) no-repeat 9px center;
+  border: solid 1px  rgba(0, 0, 0, 0.0);
+  padding: 9px 10px 9px 32px;
+  width: 0px;
+  height: 13px;
+  position: relative;
+  top: 5px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 30px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+.nav-color{
+  background-color: ivory;
+}
