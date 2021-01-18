@@ -7,7 +7,7 @@ input[type=search] {
   font-family: inherit;
   font-size: 100%;
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.0) url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  background: rgba(0, 0, 0, 0.0) url(/Project/img/search-icon.png) no-repeat 9px center;
   border: solid 1px  rgba(0, 0, 0, 0.0);
   padding: 9px 10px 9px 32px;
   width: 0px;
@@ -51,5 +51,5 @@ img{
 }
 .img_w_h{
   width: 100%;
-  height: 680px;
+  height: 700px;
 }
