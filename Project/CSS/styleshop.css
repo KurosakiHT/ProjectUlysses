@@ -3,6 +3,9 @@
   text-decoration: none;
   display: inherit;
 }
+.bg-color{
+  background-color: ivory;
+}
 .search{
   outline: none;
 }
@@ -12,7 +15,7 @@
   font-family: inherit;
   font-size: 100%;
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.0) url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  background: rgba(0, 0, 0, 0.0) url(../img/search-icon.png) no-repeat 9px center;
   border: solid 1px  rgba(0, 0, 0, 0.0);
   padding: 9px 10px 9px 32px;
   width: 0px;
@@ -32,7 +35,7 @@
   box-shadow: 0 0 5px rgba(109,207,246,.5);
 }
 .img-size{
-	height: 330px;
+  height: 310px;
 }
 .img-shake:hover {
   animation: shake 0.5s;
@@ -58,6 +61,7 @@
   position: fixed;
   bottom: 23px;
   width: 5%;
+  z-index: 9;
 }
 .chat-popup {
   display: none;
@@ -101,33 +105,25 @@
 .form-chat .btn:hover, .open-chat:hover {
   opacity: 1;
 }
-.hover-change-size:hover{
-  font-size: 38px;
+@media (max-width:768px){
+  .card-title{
+    font-size: 1.2rem;
+  }
+  .tx-responsive{
+    font-size: 28px;
+  }
+  .align-center{
+    text-align: center;
+  }
 }
-.black{
-  color: black;
-  
+@media (max-width:768px){
+  .size-responsive{
+    font-size: 24px;
+  }
 }
-input[type=search] {
-  -webkit-appearance: textfield;
-  -webkit-box-sizing: content-box;
-  font-family: inherit;
-  font-size: 100%;
-  cursor: pointer;
-  background: rgba(0, 0, 0, 0.0) url(img/search-icon.png) no-repeat 9px center;
-  border: solid 1px  rgba(0, 0, 0, 0.0);
-  padding: 9px 10px 9px 32px;
-  width: 0px;
-  height: 13px;
-  position: relative;
-  top: 5px;
-  -webkit-border-radius: 10em;
-  -moz-border-radius: 10em;
-  border-radius: 30px;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
+.size-30{
+    font-size:30px;
 }
-.nav-color{
-  background-color: ivory;
+.bg-black{
+  background-color: black;
 }
