@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/library.png">
+    <link rel="stylesheet" href="CSS/stylecontact.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <script src="Js/jquery.min.js"></script>
+  	<script src="Js/popper.min.js"></script>
+	<script src="Js/bootstrap.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md nav-color navbar-light sticky-top border-bottom">
+        <div class="container-fluid">
+            <a class="logo_size" href="index.html"><img class="img-fluid rounded-circle" src="img/logo.jpg"></a>
+            <a class="nav-link black" href="index.html">Library Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarReponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarReponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <form id="search">
+                         <input type="search" placeholder="Search">
+                       </form>
+                   </li>
+                    <li class="navbar-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#">BOOKS</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="login.html">SIGN IN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   <img class="bg-img" src="img/library.jpg" >
+    <div class="container">
+        <h1 class="pt-5 text-center">Contact our sales team</h1>
+        <p class="text-center"> Our team is happy to answer your sales questions. Fill out the form and we’ll be in touch as soon as possible.</p>
+        <div class="row">
+            <iframe class="col-lg-12 p-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.887548836521!2d105.77392931533217!3d21.03718499286563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455f90fe8ad65%3A0xec38b94cb36de0ab!2zSOG7hyBUaOG7kW5nIMSQw6BvIHThuqFvIENOVFQgLSBUM0ggSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1610980261972!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="row">
+            <h3>Send Us Feedback</h3>
+        </div>
+        <form action="base/base.txt">
+            <div class="comment-form">
+                <div class="row ">
+                    <div class="col-sm-4">
+                        <input class="mb-4 border-box bg-color" type="text" id="fname" name="fname" placeholder="Name *"> 
+                        <input class="mb-4 border-box bg-color" type="email" required id="femail" name="femail" placeholder="Email *">
+                        <input class="mb-4 border-box bg-color" type="tel" pattern="[0-9]{11}" id="fphone" name="fphone" placeholder="Phone *">
+                    </div>
+                    
+                    <div class= "col-sm-8">
+                        <div class="row">
+                        <div class="col-1">
+                            <ul>
+                                <li class="line pb list-unstyled"><img class="icon" src="img/address.png" alt=""></li>
+                                <li class="line pb-phone list-unstyled "><img class="icon" src="img/phone-call.png" alt=""></li>
+                                <li class="line pt-email list-unstyled "><img class="icon" src="img/email.png" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-10">
+                            <ul> 
+                                <li class="d-inline line"><p><b>ADDRESS</b></p></li>
+                                <li class="d-inline line"><p>Hệ Thống Đào tạo CNTT - T3H Hà Nội, Đường Hồ Tùng Mậu, Cầu Giấy, Hà Nội, Việt Nam</p></li>
+                                <li class="d-inline line"><p><b>PHONE NUMBER:</b></p></li>
+                                <li class="d-inline line"><p>0123456789</p></li>
+                                <li class="d-inline line"><p><b>Email</b></p></li>
+                                <li class="d-inline line"><p>team4K@gmail.com</p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="col-lg-12">
+                        <textarea class="mb-4 border-box mess" name="fmess" id="fmess" cols="30" rows="10" placeholder="add your comment"></textarea>
+                        <input class="submit" type="submit" value="SEND EMAIL">
+                     </div>
+                </div>   
+            </div>
+        </form>
+    </div>
+</body>
+</html>
