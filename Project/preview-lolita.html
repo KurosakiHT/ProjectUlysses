@@ -132,29 +132,95 @@
 		</div>
 	</div>
    <!--test end  -->
- 		<footer class="navbar-expand-md">
- 			<div class="container-fluid padding">
- 				<div class="row text-center">
- 					<div class="col-md-4">
- 						<p>66773508</p>
- 						<p>axz@gmail.com</p>
- 						<p>city country</p>
- 					</div>
- 					<div class="col-md-4">
- 						<p>66773508</p>
- 						<p>axz@gmail.com</p>
- 						<p>city country</p>
- 					</div>
- 					<div class="col-md-4">
- 						<p>66773508</p>
- 						<p>axz@gmail.com</p>
- 						<p>city country</p>
- 					</div>
- 					<div class="col-12">
- 						<h5>&copy; by Z</h5>
- 					</div>
- 				</div>
- 			</div>
- 		</footer>
+ 		<div class="bg-black text-white p-4 align-center">
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <h3>Infomation</h3>
+            <p>Address: CauGiay Hanoi</p>
+            <p>Telephone number: 094 263 9999</p>
+            <p>Email: developer5555@gmail.com</p>
+            <p>Website: www.growuptogether.com</p>
+          </div>
+          <div class="col-lg-2 col-md-12">
+            <h3>Policy</h3>
+            <p>Payment policy</p>
+            <p>Return policy</p>
+            <p>Shipping policy</p>
+            <p>Privacy policy</p>
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <h3>Fanpage Facebook</h3>
+            <p><img src="img/fanpage.png" class="img-fluid"></p>
+          </div>
+          <div class="col-lg-2 col-md-12">
+            <h3>Share with</h3>
+            <p><a href="#" class="text-decoration-none text-white">Facebook</a></p>
+            <p><a href="#" class="text-decoration-none text-white">Youtube</a></p>
+            <p><a href="#" class="text-decoration-none text-white">Google</a></p>
+            <p><a href="#" class="text-decoration-none text-white">Twitter</a></p>
+          </div>
+        </div>
+    </div>
+    <div id="modal">
+			<div class="modal__overlay">
+				<div class="modal__body">
+					<div class="modal__inner">
+						<div class="title-login">
+							<a class="logo_size" href="index.html"><img class="img-fluid rounded-circle" src="img/logo.jpg"></a>
+							<a class="nav-link">Library Store</a>							
+						</div>
+						<h2>Great to have you back!</h2>
+                        <p>User name</p>
+                        <input type="email" id="name" name="name">
+                        <p>Password</p>
+                        <input type="password" id="pass" name="password">
+						<a href="index.html" class="signin">
+							<button>Sign in to your account</button>
+						</a>
+						<div id="signup">New here? <a href="signup.html">Create an Library account</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <script type="text/javascript">
+      function signin(){
+			 document.getElementById("modal").style.display = "block";
+		 }
+      function bestseller(){
+        document.getElementById("bestseller").style.display ="flex";
+        document.getElementById("special_books").style.display ="none";
+        document.getElementById("literature").style.display ="none";
+        document.getElementById("economic_books").style.display ="none";
+        document.getElementById("political_books").style.display ="none";
+      }
+      function Special(){
+        document.getElementById("bestseller").style.display ="none";
+        document.getElementById("special_books").style.display ="block";
+        document.getElementById("literature").style.display ="none";
+        document.getElementById("economic_books").style.display ="none";
+        document.getElementById("political_books").style.display ="none";
+      }
+      function Listerature(){
+        document.getElementById("bestseller").style.display ="none";
+        document.getElementById("special_books").style.display ="none";
+        document.getElementById("literature").style.display ="block";
+        document.getElementById("economic_books").style.display ="none";
+        document.getElementById("political_books").style.display ="none";
+      }
+      function Economic(){
+        document.getElementById("bestseller").style.display ="none";
+        document.getElementById("special_books").style.display ="none";
+        document.getElementById("literature").style.display ="none";
+        document.getElementById("economic_books").style.display ="block";
+        document.getElementById("political_books").style.display ="none";
+      }
+      function Political(){
+        document.getElementById("bestseller").style.display ="none";
+        document.getElementById("special_books").style.display ="none";
+        document.getElementById("literature").style.display ="none";
+        document.getElementById("economic_books").style.display ="none";
+        document.getElementById("political_books").style.display ="block";
+      }
+    </script>
  	</body>
  </html>
