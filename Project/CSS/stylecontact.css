@@ -51,13 +51,10 @@
   color: darkkhaki;
 }
 .comment-form{
-  box-sizing: border-box;
-  float: left;
   width: 100%;
   margin-bottom: 30px;
 }
 .comment-form textarea{
-  float: left;
   width: 100%;
   border: 1px solid #ccc;
   padding: 12px 20px;
@@ -74,11 +71,11 @@
   background-color: rgb(255, 255, 255);
 }
 .mess{
- text-decoration: none;
-  box-sizing: border-box;
-  z-index: 5;
-  border: 1px solid rgb(227, 227, 227);
-  background-color: rgb(255, 255, 255);
+text-decoration: none;
+box-sizing: border-box;
+z-index: 5;
+border: 1px solid rgb(227, 227, 227);
+background-color: rgb(255, 255, 255);
 }
 .icon{
   width: 30px;
@@ -97,4 +94,29 @@
 }
 .pt-email{
   padding-top: 35px;
+}
+@media (max-width:768px){
+  .card-title{
+    font-size: 1.2rem;
+  }
+  .tx-responsive{
+    font-size: 28px;
+  }
+  .align-center{
+    text-align: center;
+  }
+}
+@media (max-width:768px){
+  .size-responsive{
+    font-size: 24px;
+  }
+}
+.size-30{
+    font-size:30px;
+}
+.bg-black{
+  background-color: black;
+}
+.img-fb{
+  width: 75%;
 }
