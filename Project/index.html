@@ -45,7 +45,7 @@
               <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" href="login.html">SIGN IN</a>
+              <a class="nav-link" id="sign-up" onclick="signin()">SIGN IN</a>
             </li>
           </ul>
         </div>
@@ -522,7 +522,31 @@
           </div>
         </div>
     </div>
+    <div id="modal">
+			<div class="modal__overlay">
+				<div class="modal__body">
+					<div class="modal__inner">
+						<div class="title-login">
+							<a class="logo_size" href="index.html"><img class="img-fluid rounded-circle" src="img/logo.jpg"></a>
+							<a class="nav-link">Library Store</a>							
+						</div>
+						<h2>Great to have you back!</h2>
+                        <p>User name</p>
+                        <input type="email" id="name" name="name">
+                        <p>Password</p>
+                        <input type="password" id="pass" name="password">
+						<a href="index.html" class="signin">
+							<button>Sign in to your account</button>
+						</a>
+						<div id="signup">New here? <a href="signup.html">Create an Library account</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
     <script type="text/javascript">
+      function signin(){
+			 document.getElementById("modal").style.display = "block";
+		 }
       function bestseller(){
         document.getElementById("bestseller").style.display ="flex";
         document.getElementById("special_books").style.display ="none";
