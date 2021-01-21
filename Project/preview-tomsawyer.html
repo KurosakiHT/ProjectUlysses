@@ -31,19 +31,13 @@
  							<a class="nav-link" href="index.html">HOME</a>
  						</li>
  						<li class="navbar-item">
- 							<a class="nav-link" href="#">BOOKS</a>
- 						</li>
- 						<li class="navbar-item">
  							<a class="nav-link" href="shop.html">SHOP</a>
- 						</li>
- 						<li class="navbar-item">
- 							<a class="nav-link" href="#">NEWS</a>
  						</li>
  						<li class="navbar-item">
  							<a class="nav-link" href="contact.html">CONTACT</a>
  						</li>
  						<li class="navbar-item">
- 							<a class="nav-link" href="login.html">SIGN IN</a>
+ 							<a class="nav-link" id="sign-in" onclick="signin()">SIGN IN</a>
  						</li>
  					</ul>
  				</div>
@@ -171,13 +165,13 @@
 							<a class="logo_size" href="index.html"><img class="img-fluid rounded-circle" src="img/logo.jpg"></a>
 							<a class="nav-link">Library Store</a>							
 						</div>
-						<h2>Great to have you back!</h2>
-                        <p>User name</p>
-                        <input type="email" id="name" name="name">
-                        <p>Password</p>
-                        <input type="password" id="pass" name="password">
+						<h2 class="text-center mb-4">Great to have you back!</h2>
+                        <p class="margin-left">User name</p>
+                        <input type="email" id="name" name="name" class="input">
+                        <p class="margin-left">Password</p>
+                        <input type="password" id="pass" name="password" class="input">
 						<a href="index.html" class="signin">
-							<button>Sign in to your account</button>
+							<button class="btn-signin">Sign in to your account</button>
 						</a>
 						<div id="signup">New here? <a href="signup.html">Create an Library account</a></div>
 					</div>

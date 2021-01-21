@@ -29,10 +29,7 @@
             <a class="nav-link" href="index.html">HOME</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href="#">BOOKS</a>
-          </li>
-          <li class="navbar-item">
-            <a class="nav-link" href="shop.html">SHOP</a>
+            <a class="nav-link active" href="shop.html">SHOP</a>
           </li>
           <li class="navbar-item">
             <a class="nav-link" href="contact.html">CONTACT</a>
@@ -424,9 +421,10 @@
         <script type="text/javascript" src="Js/javascript.js"></script>
       </div>
     </div>
-    <!-- Comment section -->
-    <h1 class="text-uppercase font-weight-lighter font-italic text-center mb-5 tx-responsive">Outstanding Comment</h1>
-    <div id="slide" class="carousel slide" data-ride="carousel" data-interval="7000">
+  </div>
+  <!-- Comment section -->
+  <h1 class="text-uppercase font-weight-lighter font-italic text-center mb-5 tx-responsive">Outstanding Comment</h1>
+  <div id="slide" class="carousel slide" data-ride="carousel" data-interval="7000">
       <ul class="carousel-indicators">
         <li data-target="#slide" data-slide-to="0" class="active"></li>
         <li data-target="#slide" data-slide-to="1"></li>
@@ -501,44 +499,44 @@
           </div>
         </div>
       </div>
-    </div>
-    <a class="carousel-control-prev" href="#slide" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#slide" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-    <!--footer section-->
-    <div class="bg-black text-white p-4 align-center">
-        <div class="row">
-          <div class="col-lg-3 col-md-12">
-            <h3>Infomation</h3>
-            <p>Address: CauGiay Hanoi</p>
-            <p>Telephone number: 094 263 9999</p>
-            <p>Email: developer5555@gmail.com</p>
-            <p>Website: www.growuptogether.com</p>
-          </div>
-          <div class="col-lg-2 col-md-12">
-            <h3>Policy</h3>
-            <p>Payment policy</p>
-            <p>Return policy</p>
-            <p>Shipping policy</p>
-            <p>Privacy policy</p>
-          </div>
-          <div class="col-lg-5 col-md-12">
-            <h3>Fanpage Facebook</h3>
-            <p><img src="img/fanpage.png" class="img-fluid"></p>
-          </div>
-          <div class="col-lg-2 col-md-12">
-            <h3>Share with</h3>
-            <p><a href="#" class="text-decoration-none text-white">Facebook</a></p>
-            <p><a href="#" class="text-decoration-none text-white">Youtube</a></p>
-            <p><a href="#" class="text-decoration-none text-white">Google</a></p>
-            <p><a href="#" class="text-decoration-none text-white">Twitter</a></p>
-          </div>
-        </div>
+  </div>
+  <a class="carousel-control-prev" href="#slide" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slide" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  <!--footer section-->
+  <div class="bg-black text-white p-4 align-center">
+    <div class="row">
+      <div class="col-lg-3 col-md-12">
+        <h3>Infomation</h3>
+        <p>Address: CauGiay Hanoi</p>
+        <p>Telephone number: 094 263 9999</p>
+        <p>Email: developer5555@gmail.com</p>
+        <p>Website: www.growuptogether.com</p>
+      </div>
+      <div class="col-lg-2 col-md-12">
+        <h3>Policy</h3>
+        <p>Payment policy</p>
+        <p>Return policy</p>
+        <p>Shipping policy</p>
+        <p>Privacy policy</p>
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <h3>Fanpage Facebook</h3>
+        <p><img src="img/fanpage.png" class="img-fluid"></p>
+      </div>
+      <div class="col-lg-2 col-md-12">
+        <h3>Share with</h3>
+        <p><a href="#" class="text-decoration-none text-white">Facebook</a></p>
+        <p><a href="#" class="text-decoration-none text-white">Youtube</a></p>
+        <p><a href="#" class="text-decoration-none text-white">Google</a></p>
+        <p><a href="#" class="text-decoration-none text-white">Twitter</a></p>
+      </div>
     </div>
   </div>
+  <!--sign in & sign up page-->
   <div id="modal">
     <div class="modal__overlay">
       <div class="modal__body">
@@ -547,13 +545,13 @@
             <a class="logo_size" href="index.html"><img class="img-fluid rounded-circle" src="img/logo.jpg"></a>
             <a class="nav-link">Library Store</a>							
           </div>
-          <h2>Great to have you back!</h2>
-                      <p>User name</p>
-                      <input type="email" id="name" name="name">
-                      <p>Password</p>
-                      <input type="password" id="pass" name="password">
+          <h2 class="text-center mb-4">Great to have you back!</h2>
+          <p class="margin-left">User name</p>
+          <input type="email" id="name" name="name" class="input">
+          <p class="margin-left">Password</p>
+          <input type="password" id="pass" name="password" class="input">
           <a href="index.html" class="signin">
-            <button>Sign in to your account</button>
+            <button class="btn-signin">Sign in to your account</button>
           </a>
           <div id="signup">New here? <a href="signup.html">Create an Library account</a></div>
         </div>
@@ -561,9 +559,9 @@
     </div>
   </div>
   <script>
-     function signin(){
-			 document.getElementById("modal").style.display = "block";
-		 }
+    function signin(){
+			document.getElementById("modal").style.display = "block";
+		}
   </script>
 </body>
 </html>

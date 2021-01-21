@@ -121,9 +121,6 @@
     font-size: 24px;
   }
 }
-.size-30{
-    font-size:30px;
-}
 .bg-black{
   background-color: black;
 }
@@ -132,7 +129,7 @@
     opacity: 0;
   }
   to  {
-      opacity: 1;
+    opacity: 1;
   }
 }
 @keyframes growth{
@@ -184,14 +181,10 @@
   padding-top: 15px;
   margin: auto;
 }
-#modal h2{
-  text-align: center;
-  margin-bottom: 30px;
+.margin-left{
+  margin-left: 9%;
 }
-#modal p{
-  
-}
-#modal input{
+.input{
   margin-left: 9%;
   width: 80%;
   height: 30px;
@@ -199,10 +192,7 @@
   border-radius: 5px;
   margin-top: 10px;
 }
-#modal p{
-  margin-left: 9%;
-}
-#modal button{
+.btn-signin{
   width: 45%;
   height: 40px;
   background-color: rgb(111, 153, 54);
@@ -211,7 +201,7 @@
   margin-top: 30px;
   margin-left: 140px;
 }
-button:hover{
+.btn-signin:hover{
   cursor: pointer;
   opacity: 0.75;
 }

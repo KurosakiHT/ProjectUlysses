@@ -269,6 +269,9 @@
   .card{
     width: 100%;
   }
+  .align-center{
+    text-align: center;
+  }
 }
 .bg-black{
   background-color: black;
@@ -330,11 +333,7 @@
   padding-top: 15px;
   margin: auto;
 }
-#modal h2{
-  text-align: center;
-  margin-bottom: 30px;
-}
-#modal input{
+.input{
   margin-left: 9%;
   width: 80%;
   height: 30px;
@@ -342,10 +341,10 @@
   border-radius: 5px;
   margin-top: -10px;
 }
-#modal p{
+.margin-left{
   margin-left: 9%;
 }
-#modal button{
+.btn-signin{
   width: 45%;
   height: 40px;
   background-color: rgb(111, 153, 54);
@@ -354,7 +353,7 @@
   margin-top: 30px;
   margin-left: 140px;
 }
-button:hover{
+.btn-signin:hover{
   cursor: pointer;
   opacity: 0.75;
 }

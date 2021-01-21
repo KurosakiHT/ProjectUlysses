@@ -22,23 +22,20 @@
                 <ul class="navbar-nav ml-auto">
                     <li>
                         <form id="search">
-                         <input type="search" placeholder="Search" class="search">
-                       </form>
+                            <input type="search" placeholder="Search" class="search">
+                        </form>
                    </li>
-                    <li class="navbar-item active">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
                     <li class="navbar-item">
-                        <a class="nav-link" href="#">BOOKS</a>
+                        <a class="nav-link" href="index.html">HOME</a>
                     </li>
                     <li class="navbar-item">
                         <a class="nav-link" href="shop.html">SHOP</a>
                     </li>
                     <li class="navbar-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link active" href="contact.html">CONTACT</a>
                     </li>
                     <li class="navbar-item">
-                        <a class="nav-link" id="sign-up" onclick="signin()">SIGN IN</a>
+                        <a class="nav-link" id="sign-in" onclick="signin()">SIGN IN</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +79,7 @@
         </form>
     </div>
     <div class="footer">
-        <div class="bg-black text-white p-4 align-center">
+        <div class="bg-black text-white p-4 content-center">
             <div class="row">
               <div class="col-lg-3 col-md-12">
                 <h3>Infomation</h3>
@@ -100,7 +97,7 @@
               </div>
               <div class="col-lg-5 col-md-12">
                 <h3>Fanpage Facebook</h3>
-                <p><img src="img/fanpage.png" class="img-fb"></p>
+                <p><img src="img/fanpage.png" class="img-fluid"></p>
               </div>
               <div class="col-lg-2 col-md-12">
                 <h3>Share with</h3>
@@ -120,13 +117,13 @@
                         <a class="logo_size" href="index.html"><img class="img-fluid rounded-circle" src="img/logo.jpg"></a>
                         <a class="nav-link">Library Store</a>							
                     </div>
-                    <h2>Great to have you back!</h2>
-                    <p>User name</p>
-                    <input type="email" id="name" name="name">
-                    <p>Password</p>
-                    <input type="password" id="pass" name="password">
+                    <h2 class="text-center mb-4">Great to have you back!</h2>
+                    <p class="margin-left">User name</p>
+                    <input type="email" id="name" name="name" class="input">
+                    <p class="margin-left">Password</p>
+                    <input type="password" id="pass" name="password" class="input">
                     <a href="index.html" class="signin">
-                        <button>Sign in to your account</button>
+                        <button class="btn-signin">Sign in to your account</button>
                     </a>
                     <div id="signup">New here? <a href="signup.html">Create an Library account</a></div>
                 </div>
@@ -135,8 +132,8 @@
     </div>
     <script>
         function signin(){
-			 document.getElementById("modal").style.display = "block";
-		 }
+			document.getElementById("modal").style.display = "block";
+		}
     </script>
 </body>
 </html>
