@@ -56,4 +56,31 @@ input[type=checkbox]{
     margin-top: -45%;
     margin-bottom: 150px;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .register-form{
+        width: 100%;
+    }
+    .register-form img{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 46.1875em){
+    .main{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    input{
+        width: 60%;
+    }
+    .check{
+        width: 30%;
+    }
+    .register-form img{
+        display: none;
+    }
+    .register button{
+        margin-bottom: 30px;
+    }
+}
 
