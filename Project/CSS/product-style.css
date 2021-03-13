@@ -241,7 +241,6 @@
   right: 0;
   bottom: 0;
   left: 0;
-  display: flex;
   animation: fadeIn linear 0.1s;
   display: none;
 }
@@ -259,7 +258,6 @@
   background-color: white;
   margin: auto;
   margin-top: 60px;
-  position: relative;
   z-index: 1;
   border-radius: 5px;
   animation: growth linear 0.1s ;
@@ -302,8 +300,26 @@
 }
 #signup{
   margin-top: 30px;
-  margin-left: 135px;
+  text-align: center;
 }
 #sign-in{
   cursor: pointer;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .modal__body{
+    width: 70%;
+  }
+  .btn-signin{
+    margin-left: 28%;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 46.1875em){
+  .modal__body{
+    width: 100%;
+  }
+  .btn-signin{
+    margin-left: 27%;
+    height: 50px;
+  }
 }
